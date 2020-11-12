@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+//TODO: Для чего кнопка создания пользователя на index.jsp? Если она там нужна, то почему форма перехода на страничку создания пользователя находится внутри формы логина?
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 

@@ -12,7 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+//TODO: Сервлет не принимает файл фотографии, кроме того не принимает и поля формы из-за того, что форма multipart/formdata, а сервлет - нет. Доделать по примеру UpdateUserServlet.java
+//TODO: Сервлет создает пользователя в базе с пустыми полями при нажатии кнопки перехода на форму создания пользователя. Это происходит из-за того, что POST метод и направляет на createuser.jsp и создает пользователя. Эту логику надо разделить. Пример все там же: UpdateUserServlet.java
 @WebServlet("/createuser")
 public class CreateUserServlet extends HttpServlet {
 
